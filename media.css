@@ -1,0 +1,268 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Home */
+  .nav-item {
+    margin-right: 10px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 769px) and (max-width: 991px) {
+  /* Home */
+  .nav-item {
+    margin-right: 10px;
+  }
+
+  /* About Me */
+
+  .about-title {
+    margin-bottom: 10px;
+  }
+  .orange-text {
+    margin-bottom: 20px;
+  }
+
+  .ab-container {
+    margin: 15px;
+  }
+
+  .skills-container {
+    margin: 15px;
+  }
+
+  .smb-container {
+    margin: 15px;
+  }
+
+  .smb-icon {
+    margin-bottom: 20px;
+  }
+
+  /* Experiences */
+
+  .ex-container {
+    margin: 30px;
+  }
+
+  .description-icon {
+    margin-right: 10px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+  .nav-item {
+    margin-right: 10px;
+    font-size: 10px;
+  }
+
+  /* About Me */
+
+  .about-title {
+    margin-bottom: 10px;
+  }
+  .orange-text {
+    margin-bottom: 20px;
+  }
+
+  .ab-container {
+    margin: 15px;
+  }
+
+  .ab-text {
+    font-size: 12px;
+  }
+
+  .skills-container {
+    margin: 15px;
+  }
+
+  .skills-description {
+    font-size: 12px;
+  }
+
+  .name-container {
+    font-size: 10px;
+  }
+
+  .smb-container {
+    margin: 15px;
+  }
+
+  .smb-icon {
+    margin-bottom: 20px;
+  }
+
+  .smb-title {
+    font-size: 18px;
+  }
+
+  .smb-content {
+    font-size: 12px;
+  }
+
+  /* Experiences */
+
+  .ex-container {
+    margin: 20px;
+  }
+
+  .description-icon {
+    margin-right: 10px;
+  }
+
+  .description-task {
+    font-size: 16px;
+  }
+
+  .ex-date {
+    font-size: 12px;
+  }
+
+  /* Test */
+
+  .test-title {
+    font-size: 30px;
+  }
+
+  /* Contact */
+  .contact-container {
+    margin: 40px 20px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  /* Home */
+  .home {
+    flex-direction: column;
+    height: 1200px;
+  }
+
+  .right {
+    height: 50%;
+    width: 100%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .home-content {
+    margin: 20px;
+  }
+
+  .left {
+    height: 50%;
+    width: 100%;
+  }
+
+  .logo {
+    text-align: center;
+    width: 100px;
+  }
+
+  .logo-text {
+    margin: auto;
+  }
+
+  /* About Me */
+  .about-me {
+    flex-direction: column;
+    height: 1800px;
+  }
+
+  .about-intro {
+    width: 100%;
+    height: 300px;
+  }
+
+  .skills {
+    width: 100%;
+    height: 300px;
+  }
+
+  .smb {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* Experiences */
+
+  .left-top-img,
+  .right-bot-img {
+    display: none;
+  }
+
+  .experiences {
+    flex-direction: column;
+  }
+
+  .ex-bl {
+    width: 100%;
+  }
+
+  .ex-container {
+    margin: 15px;
+  }
+
+  .description-icon {
+    margin-right: 10px;
+  }
+
+  .description-task {
+    font-size: 12px;
+  }
+
+  .ex-date {
+    font-size: 10px;
+  }
+
+  /* Test */
+
+  .test-container {
+    margin: 0 20px;
+  }
+
+  /* Contact */
+
+  .contact {
+    height: 1800px;
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-button {
+    width: 100%;
+  }
+
+  .contact-img {
+    width: 100%;
+  }
+
+  .contact-info {
+    width: 100%;
+  }
+
+  /* Footer */
+
+  .footer-info {
+    font-size: 12px;
+    width: 80%;
+  }
+
+  .footer-links {
+    width: 80%;
+  }
+}
