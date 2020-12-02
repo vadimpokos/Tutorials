@@ -130,6 +130,7 @@ body {
   position: absolute;
   right: 10px;
   top: 10px;
+  z-index: 2;
 }
 
 .btn__item,
@@ -162,11 +163,14 @@ body {
 #menu__toggle:checked ~ .burger__btn > .btn__item::before {
   top: 0;
   transform: rotate(0);
+  background-color: rgb(231, 157, 60);
 }
 #menu__toggle:checked ~ .burger__btn > .btn__item::after {
   top: 0;
   transform: rotate(90deg);
+  background-color: rgb(231, 157, 60);
 }
+
 
 .logo {
   line-height: 50px;
@@ -185,10 +189,16 @@ body {
 .nav-left-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  margin-top: 200px;
-  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
   color: rgb(231, 157, 60);
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .nav-left-item {
@@ -197,7 +207,7 @@ body {
 }
 
 .nav-left-item:active {
-  color: white;
+  color: #ccc;
 }
 
 /* About Me */

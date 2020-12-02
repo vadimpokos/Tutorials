@@ -56,8 +56,30 @@
 /* Landscape phones and portrait tablets */
 @media (max-width: 768px) {
   .nav-item {
-    margin-right: 10px;
+    margin-right: 5px;
+    font-size: 8px;
+  }
+
+  .hello-title{
+    padding: 5px 0;
+    font-size: 20px;
+  }
+
+  .home-content{
+    margin: 0 15px;
+  }
+
+  .welcome-text{
     font-size: 10px;
+  }
+
+  .hello-text{
+    font-size: 10px;
+  }
+
+  .home-but{
+    margin-top: 10px;
+    padding: 5px 10px;
   }
 
   /* About Me */
@@ -66,19 +88,20 @@
     margin-bottom: 10px;
   }
   .orange-text {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .ab-container {
-    margin: 15px;
+    margin: 10px;
   }
 
   .ab-text {
     font-size: 12px;
+    margin-bottom: 5px;
   }
 
   .skills-container {
-    margin: 15px;
+    margin: 10px;
   }
 
   .skills-description {
@@ -86,7 +109,7 @@
   }
 
   .name-container {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .smb-container {
@@ -108,19 +131,19 @@
   /* Experiences */
 
   .ex-container {
-    margin: 20px;
+    margin: 10px;
   }
 
   .description-icon {
-    margin-right: 10px;
+    margin-right: 5px;
   }
 
   .description-task {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .ex-date {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   /* Test */
@@ -129,9 +152,25 @@
     font-size: 30px;
   }
 
+  .test-container {
+    margin: 0 20px;
+  }
+
   /* Contact */
   .contact-container {
-    margin: 40px 20px;
+    margin: 20px 10px;
+  }
+
+  .contact-icon {
+    margin-right: 5px;
+  }
+
+  .contact-description{
+    font-size: 10px;
+  }
+
+  .contact-button {
+    width: 100%;
   }
 }
 
@@ -153,11 +192,22 @@
   }
 
   .burger-menu {
-    display: block;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
   }
 
   .home-content {
     margin: 20px;
+  }
+
+  .hello-title{
+    font-size: 30px;
+  }
+
+  .hello-text{
+    font-size: 14px;
   }
 
   .left {
