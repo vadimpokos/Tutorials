@@ -100,7 +100,7 @@ body {
 }
 
 .left {
-  background-image: url(/images/home-img.jpg);
+  background-image: url(./images/home-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -170,7 +170,6 @@ body {
   transform: rotate(90deg);
   background-color: rgb(231, 157, 60);
 }
-
 
 .logo {
   line-height: 50px;
